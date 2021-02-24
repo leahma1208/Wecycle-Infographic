@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(0deg, #c9cef7, #b4dcbe);
+}
+
+.animals {
+  max-width: 50vw;
+  margin: auto;
+}
+
+.animals_question {
+  display: flex;
+  margin: 10% 20% 5% 20%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.question_img > img {
+  width: 350px;
+  height: 300px;
+  margin: auto;
+}
+
+.animals_title {
+  font-size: 55px;
+  font-weight: 500;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+
+.self {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 75vw;
+  margin: auto;
+}
+.diy-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 20% 10% 20%;
+  text-align: center;
+}
+.big {
+  font-family: "Bebas Neue", cursive;
+  font-size: 100px;
+  justify-content: center;
+  align-items: center;
+  color: #8420d2;
+}
+.small {
+  font-family: "Montserrat", sans-serif;
+  color: #502b6c;
+  font-size: 40px;
+  margin-top: 20px;
+}
