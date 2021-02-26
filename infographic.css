@@ -13,3 +13,18 @@ body {
     align-items: center;
 }
 
+/* hyerin */
+#quiz_section {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 73px;
+}
+
+.country{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+}
+.recyclebin{
+    /* display: flex; */
+}
+
