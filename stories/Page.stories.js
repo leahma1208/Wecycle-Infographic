@@ -3,6 +3,9 @@
 //magnifying glass (Kelly)
 import {Magnify} from '../comps/MangifyingGlass'
 
+//Phone (kelly)
+import {Phone} from '../comps/Phone'
+
 
 
 //DEFAULT
