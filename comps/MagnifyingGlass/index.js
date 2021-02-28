@@ -5,7 +5,7 @@ function MagnifyingGlass(img = "../public/Images/closerlook.svg"){
             style="
             transition: width 2s, height 2s;
             "
-            src="${img}" width="200px" height="200px"
+            src="${img}" width="130px" height="200px"
             onclick="MagnifyingGlass.Appear(this)"
             >
             
