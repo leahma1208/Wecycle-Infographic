@@ -5,10 +5,15 @@ body {
 
 .container {
     background-color: #CDEAFF;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.holder {
     justify-content: center;
     align-items: center;
 }
@@ -28,3 +33,37 @@ body {
     /* display: flex; */
 }
 
+
+/* Kelly Flags revision */
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flag {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* flag true */
+
+#flag-answer1 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 60px;
+    width: 100%;
+    padding: 0px 40px;
+    display: none;
+}
+
+#flag-answer2 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 60px;
+    width: 100%;
+    padding: 0px 40px;
+    display: none;
+}
