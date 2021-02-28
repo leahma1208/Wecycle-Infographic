@@ -14,6 +14,7 @@ function FlagUI(image = "public/imgs/new-zealand.svg" , country = "New Zealand")
             style="
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
+            
             "
             >${country}<p>
         <div>

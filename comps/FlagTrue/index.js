@@ -3,8 +3,10 @@ function CountryTrue() {
     <div
     style="
     display:flex;
+    width:712px;
+    height:245px;
     flex-direction:column;
-    padding: 20px;
+    padding: 20px 150px;
     background-color: #F2FFF5;
     border-radius:46px;
     text-align:center;
