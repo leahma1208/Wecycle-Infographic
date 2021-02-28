@@ -37,7 +37,7 @@ body {
 /* Kelly Flags revision */
 .middle {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .flag {

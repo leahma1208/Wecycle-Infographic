@@ -6,7 +6,7 @@ function CountryTrue() {
     flex-direction:column;
     padding: 20px;
     background-color: #F2FFF5;
-    border-radius:10px;
+    border-radius:46px;
     text-align:center;
     justify-content:center;
     "
