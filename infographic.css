@@ -4,7 +4,8 @@ body {
 }
 
 .container {
-    background-color: #CDEAFF;
+    /* background-color: #CDEAFF; */
+    /* let's put at the end for the bg color */
     width: 100%;
     height: 100%;
     display: flex;
@@ -18,26 +19,13 @@ body {
     align-items: center;
 }
 
-/* hyerin */
-#quiz_section {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 73px;
-}
-
-.country{
-    width: 100vw;
-    height: 100vh;
-    display:flex;
-}
-.recyclebin{
-    /* display: flex; */
-}
 
 
-/* Kelly Flags revision */
+
+/* Flags revision */
 .middle {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */   
 }
 
 .flag {
@@ -49,8 +37,16 @@ body {
     font-weight: bold;
 }
 
+.bin {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
 
-/* flag true */
+}
+
+
+/* flag answer */
 
 #flag-answer1 {
     font-family: 'Montserrat', sans-serif;
@@ -67,3 +63,21 @@ body {
     padding: 0px 40px;
     display: none;
 }
+
+/* recycle answer*/
+
+#recycleBin-answer1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 0 40px;
+    display: none;
+}
+
+#recycleBin-answer2 {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 0 40px;
+    display: none;
+}
+
+

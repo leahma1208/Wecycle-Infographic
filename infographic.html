@@ -9,18 +9,36 @@
     <body>
         <div class="container">
 
+            <!-- magnify -->
             <div class="holder">
                 <!-- place comp here -->
                 <div id="magnify"></div>
             </div>
 
+            <!-- phone -->
             <div class="holder">
                 <!-- place comp here -->
                 <div id="phone"></div>
             </div>
 
+            <!-- recycle quiz part -->
             <div class="holder">
-                <!-- place comp here -->
+                <div class="middle">
+                    <div onclick="RecycleBinTrue()" id="bin-1" class="bin"></div>
+                    <div onclick="RecycleBinFalse()" id="bin-2" class="bin"></div>
+                    <div onclick="RecycleBinFalse()" id="bin-3" class="bin"></div>
+                </div>
+            </div>
+
+            <div class="holder">
+                <div class="middle">
+                    <div id="recycleBin-answer1"></div>
+                    <div id="recycleBin-answer2"></div>
+                </div>
+            </div>
+
+            <!-- country quiz part -->
+            <div class="holder">
                 <div class="middle">
                     <div onclick="FlagAnswerFalse()" id="flag-1" class="flag"></div>
                     <div onclick="FlagAnswerFalse()" id="flag-2" class="flag"></div>
@@ -36,25 +54,12 @@
             </div>
             
 
-            <!-- hyerin -->
-            <!-- <div id="recyclebin_section">
-                <div class="row recyclebin"></div>
-            </div>
-        
-        
-            <div id="quiz_section">
-                <div>
-                    <p>Roughly how big do you</p> 
-                    <p>think Canada’s landfill is?</p>
-                </div>
-                <div class="row country"></div>
-            </div> -->
-
         </div>
         <script src="comps/FlagFalse/index.js"></script>
         <script src="comps/FlagTrue/index.js"></script>
         <script src="comps/QuizCountry/index.js"></script>
-        <script src="./comps/CountryQuiz/index.js"></script>
+        <script src="comps/RecycleFalse/index.js"></script>
+        <script src="comps/RecycleTrue/index.js"></script>
         <script src="./comps/RecycleBin/index.js"></script>
         <script src="comps/MagnifyingGlass/index.js"></script>
         <script src="comps/Phone/index.js"></script>
