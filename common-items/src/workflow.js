@@ -1,4 +1,4 @@
-document.querySelector(".items").innerHTML += ItemsUI("./imgs/bottle.png", "Beverage Bottles", 0);
+document.querySelector(".items").innerHTML += ItemsUI("./imgs/bottle.png", "Beverage Bottles", 0, 40, 40);
 document.querySelector(".items").innerHTML += ItemsUI("./imgs/can.png",  "Beverage Cans");
 document.querySelector(".items").innerHTML += ItemsUI("./imgs/caps.png", "Caps and Lips", 0);
 document.querySelector(".items").innerHTML += ItemsUI("./imgs/cigarette.png",  "Cigarettes", 10);

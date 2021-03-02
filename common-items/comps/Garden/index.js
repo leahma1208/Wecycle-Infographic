@@ -38,6 +38,7 @@ function GardenUI()
     >
     Click me to see what is in our gardens</p>
     <div>
+    </div>
     </section>
     `
 
@@ -47,7 +48,7 @@ function GardenUI()
 
 GardenUI.HandleClick = (el) => {
     el.style.opacity= 0;
-    document.querySelector("").style.opacity = 1;
+    document.querySelector("mircoplastic").style.opacity = 1;
 
 }
 

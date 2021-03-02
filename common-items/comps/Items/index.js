@@ -1,7 +1,10 @@
-function ItemsUI(imgs="./imgs/bottle.png", text="Items",z="20")
+function ItemsUI(imgs="./imgs/bottle.png", text="Items",z="20", left=10, top=10)
 {
     return`
     <section style='
+    postion:absolute;
+	left:${left}px;
+	top:${top}px;
     background-color: #9FD4FF;
     display: flex;
     flex-direction: row;
