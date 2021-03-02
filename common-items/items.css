@@ -1,0 +1,26 @@
+html, body
+{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.items
+{
+    height: 780px;
+    width: auto;
+    background-color: #9FD4FF;
+}
+
+.garden
+{
+    height: 780px;
+    width: auto;
+    background-color: #DE9252;
+}
