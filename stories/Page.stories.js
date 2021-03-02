@@ -13,10 +13,6 @@ import {Phone} from '../comps/Phone'
 //recyclebin (hyerin back up)
 // import {RecycleBin} from '../comps/RecycleBin';
 
-//DEFAULT
-export default {
-  title: "Weduce Components"
-}
 
 //flags
 import {Flag} from '../comps/countryquiz';
@@ -36,8 +32,30 @@ import {FalseRecycle} from '../comps/RecycleFalse';
 //recycle true
 import {TrueRecycle} from '../comps/RecycleTrue';
 
+//"LEARN THE IMPORTANCE OF" header
+import {Introhead} from '../comps/Intro-header';
+
+//RECYCLING header
+import {IntroRecycleHeader} from '../comps/recycle-head';
+
+//BODY TEXT MONTSERRAT
+import {textbody} from '../comps/body-text';
+
+//SUB CATEGORY HEADINGS
+import {Subhead} from '../comps/sub-category';
+
+//Fish
+import {FishTrap} from '../comps/fish';
+
+//bag
+import {Bag} from '../comps/bag';
 
 
+
+//DEFAULT
+export default {
+  title: "Weduce Components"
+}
 
 
 //EXPORT
@@ -53,4 +71,11 @@ export const FlagFalse = () => FalseCountry;
 export const RecycleQuiz = () => RecycleBin;
 export const RecycleFalse = () => FalseRecycle;
 export const RecycleTrue = () => TrueRecycle;
+export const IntroHeader = () => Introhead;
+export const IntroRecycle = () => IntroRecycleHeader;
+export const BodyText = () => textbody;
+export const Mysubheader = () => Subhead;
+export const TrappedFish = () => FishTrap;
+export const BagUI = () => Bag;
+
 

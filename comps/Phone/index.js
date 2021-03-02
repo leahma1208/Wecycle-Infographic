@@ -3,7 +3,7 @@ function PhoneUI()
     return `
     <div>
         <img
-        src="../public/Images/phone-1.svg" width="400px" height="400px"
+        src="../public/Images/phone-1.svg" width="500px" height="500px"
         onclick="PhoneUI.Show(this)"
         >
     </div>

@@ -3,6 +3,7 @@ function RecycleBinUI(url='',sort='recyclebin'){
         <div style='
         display:flex;
         text-align:center;
+        justify-content:center;
         '>
             <div style='
                 display:flex;
@@ -16,6 +17,7 @@ function RecycleBinUI(url='',sort='recyclebin'){
                 '>
                 <p style='
                     font-size:40px;
+                    font-family: montserrat;
                     color:#00406E;
                     font-weight:600;
                     margin-top:50px;
