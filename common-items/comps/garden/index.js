@@ -1,15 +1,16 @@
-function GardenUI(imgs="./imgs/shovel.png")
+function GardenUI()
 {
     return`
     <section style='
-    background-color: #9FD4FF;
+    background-color: #DE9252;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     transition: opacity 1s;
     opacity: 1;
     '
-    onclick='GardenUI.HandleClick(this)'
+    onclick='ItemsUI.HandleClick(this)'
     >
     <div style='
     display: flex;
@@ -18,39 +19,28 @@ function GardenUI(imgs="./imgs/shovel.png")
     '
     >
     <img style='
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    transform: rotate(${z}deg)
-
+    width: 10rem;
+    height: 10rem;
+    margin: 3rem;
+    transform: rotate(-70deg)
     '
-    src="${imgs}"/>
+    src="./imgs/shovel.png"/>
     </div>
-    <p style='
-    font-size: 36px;
+    <p id="text "style='
+    font-size: 30px;
     font-family: sans-serif;
-    display: flex;
-    align-text: center;
-    justify-content:center;
-    color: dark grey;
-    
-    
-    
-    '>Click me to see what is in our gardens</p>
+    color: #000000;
+    margin-top: 7rem;
+    transition: opacity 1s;
+    opacity: 1;
+    '
+    >
+    Click me to see what is in our gardens</p>
     <div>
     </section>
     `
-
 }
-
 GardenUI.HandleClick = (el) => {
-    el.style.opacity= 0.2;
-    
-
+    el.style.opacity= 0;
 }
-
-
-
-
-
-//export const Garden = GardenUI(); 
+//export const Garden = GardenUI();
