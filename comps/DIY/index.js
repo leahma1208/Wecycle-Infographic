@@ -1,9 +1,10 @@
-function SelfUI(img1="./Imgs/bottles.png",img2="./Imgs/bottle_DIY.png",txt="Use bottle as a pot for plants!"){
+function SelfUI(img1="./Imgs/bottles.png",img2="./Imgs/bottle_DIY.png",txt="Use bottle as a pot for plants!", clickId="diy",
+left1="0",left2="400", width="400", height="300", top="0", right="0"){
     return `
     
     <section style='
     display: flex;
- 
+    margin-bottom: 100px;
     
     
     '>
@@ -13,6 +14,8 @@ function SelfUI(img1="./Imgs/bottles.png",img2="./Imgs/bottle_DIY.png",txt="Use 
     
     display: flex;
     flex-direction: column;
+    margin-left: ${left1}px;
+    
     
     
     '
@@ -30,21 +33,22 @@ function SelfUI(img1="./Imgs/bottles.png",img2="./Imgs/bottle_DIY.png",txt="Use 
     
     '>Click Me!</p>
     <img 
-    onclick="SelfUI.HandleClick(this)"
+    onclick="SelfUI.HandleClick('${clickId}')"
     style='
     width: 300px;
     height: 300px;
+   
     
     
     'src="${img1}"/>
     </div>
     
 
-    
-    <div id="diy"
+
+    <div id="${clickId}"
     style='display: flex;
     flex-direction: column;
-    margin-left: 200px;
+    margin-left: ${left2}px;
     display: flex;
     margin-top: 90px;
     font-family: sans-serif;
@@ -55,15 +59,20 @@ function SelfUI(img1="./Imgs/bottles.png",img2="./Imgs/bottle_DIY.png",txt="Use 
    
     >
     <img style='
-    width: 450px;
-    height: 350px;
+    width: ${width}px;
+    height: ${height}px;
     
     
     'src='${img2}'/>
     <p style='
     font-size: 40px;
     justify-content: center;
-    margin-top: 0px;
+    
+   text-align:center;
+    display: flex;
+    flex-direction: column;
+    margin-top: ${top}px;
+    margin-right: ${right}px;
     
     
     '
@@ -72,6 +81,10 @@ function SelfUI(img1="./Imgs/bottles.png",img2="./Imgs/bottle_DIY.png",txt="Use 
     </p>
 
     </div>
+
+    
+   
+    
     
     </section>
     
@@ -79,7 +92,7 @@ function SelfUI(img1="./Imgs/bottles.png",img2="./Imgs/bottle_DIY.png",txt="Use 
     `
 }
 
-SelfUI.HandleClick = (el) => {
-    document.querySelector("#diy").style.opacity = 1
+SelfUI.HandleClick = (clickId) => {
+    document.querySelector(`#${clickId}`).style.opacity = 1
 }
 // export const DIY = SelfUI();
