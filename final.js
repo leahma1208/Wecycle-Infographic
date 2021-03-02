@@ -25,6 +25,11 @@ document.querySelector("#bin-3").innerHTML += RecycleBinUI('./public/images/gree
 document.querySelector("#recycleBin-answer1").innerHTML += RecycleTrue()
 document.querySelector("#recycleBin-answer2").innerHTML += RecycleFalse()
 
+//WENDY THE WHALE
+document.querySelector("#wendy-debris").innerHTML += DebrisUI()
+document.querySelector("#wendy-whale").innerHTML += WendyWhale()
+document.querySelector("#wendy-par-1").innerHTML += BodyTextUI("<strong>Wendy the Whale</strong> might <br> <strong>mistakenly</strong> eat the plastic debris")
+document.querySelector("#wendy-par-2").innerHTML += BodyTextUI("<strong>Click on the right waste bin</strong> <br> to help Wendy!")
 
 //additional js
 

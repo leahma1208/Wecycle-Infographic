@@ -105,6 +105,22 @@ body {
     left: -160px;
 }
 
+/* WENDY THE WHALE */
+
+.whale-img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wendy-img {
+    margin: 0px 40px;
+}
+
+
+
 
 
 

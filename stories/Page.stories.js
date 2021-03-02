@@ -50,6 +50,11 @@ import {FishTrap} from '../comps/fish';
 //bag
 import {Bag} from '../comps/bag';
 
+//plastic debris
+import {Debris} from '../comps/debris';
+
+// WENDY THE WHALE
+import {MyWhale} from '../comps/wendy';
 
 
 //DEFAULT
@@ -77,5 +82,6 @@ export const BodyText = () => textbody;
 export const Mysubheader = () => Subhead;
 export const TrappedFish = () => FishTrap;
 export const BagUI = () => Bag;
-
+export const MyDebris = () => Debris;
+export const WhaleWendy = () => MyWhale;
 
