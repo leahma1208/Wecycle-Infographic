@@ -2,6 +2,7 @@ html, body
 {
     margin:0;
     font-family: 'Montserrat', sans-serif;
+    background-color: #CDEAFF;
 }
 
 #main
@@ -11,16 +12,42 @@ html, body
     display: flex;
 }
 
+.center{
+    flex-basis: 100vw;
+    background-color: white;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    }
+
 .items
 {
-    height: 780px;
-    width: auto;
     background-color: #9FD4FF;
+    display: flex;
+    flex-basis: 100px;
+    flex: 0.5;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.items2
+{
+    background-color: #9FD4FF;
+    display: flex;
+    flex-basis: 100px;
+    flex: 0.5;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .garden
 {
-    height: 780px;
-    width: auto;
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
     background-color: #DE9252;
 }
