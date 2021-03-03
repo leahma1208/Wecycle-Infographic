@@ -1,44 +1,45 @@
-function ItemsUI(imgs="./imgs/bottle.png", text="Items",z="20")
+function ItemsUI(imgs="./imgs/bottle.png", text="Items",z="20",  left=20, top=10)
 {
     return`
-    <section style='
+    <div style='
+    postion:absolute;
+	left:${left}rem;
+	top:${top}rem;
     background-color: #9FD4FF;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
     transition: opacity 1s;
     opacity: 1;
     '
     onclick='ItemsUI.HandleClick(this)'
     >
-    <div style='
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    '
-    >
-    <img style='
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    transform: rotate(${z}deg)
- 
-    '
-    src="${imgs}"/>
+        <div style='
+        display: flex;
+        margin: 2rem;
+        '
+        >
+        <img style='
+        width: 7rem;
+        height: 7rem;
+        margin: 10px;
+        transform: rotate(${z}deg)
+    
+        '
+        src="${imgs}"/>
+        </div>
+        <div id="text "style='
+        font-size: 20px;
+        font-family: sans-serif;
+        color: #292929;
+        margin-top: 5rem;
+        transition: opacity 1s;
+        opacity: 1;
+        '
+        >
+        ${text}
+        </div>
+
     </div>
-    <div id="text "style='
-    font-size: 20px;
-    font-family: sans-serif;
-    color: #292929;
-    margin-top: 40px;
-    transition: opacity 1s;
-    opacity: 1;
-    '
-    >
-    ${text}
-    <div>
-    </section>
     `
 }
  
