@@ -1,11 +1,10 @@
-function ItemsUI(imgs="./imgs/bottle.png", text="Items",z="20",  left=20, top=10)
+function ItemsUI(imgs="../common-items/imgs/bottle.png", text="Items",z="20",  left=20, top=10)
 {
     return`
     <div style='
     postion:absolute;
 	left:${left}rem;
 	top:${top}rem;
-    background-color: #9FD4FF;
     display: flex;
     flex-direction: row;
     transition: opacity 1s;

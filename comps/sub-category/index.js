@@ -1,8 +1,8 @@
-function SubCatUI(text = "SUBHEADING"){
+function SubCatUI(text = "SUBHEADING", align = "left"){
     return `
     <div
     style="
-    text-align:left;
+    text-align:${align};
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:900;
