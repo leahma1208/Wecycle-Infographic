@@ -44,6 +44,36 @@ document.querySelector("#recycleBin-answer22").innerHTML += RecycleFalse("That i
 document.querySelector("#microplastichead").innerHTML += SubCatUI("FIRST OFF... WHAT IS <br> MICROPLASTIC?");
 document.querySelector("#closerlook").innerHTML += MagnifyingGlass();
 
+//common items
+document.querySelector("#commonheader").innerHTML += SubCatUI("COMMON ITEMS FOUND<br>IN MARINE LIFE")
+
+document.querySelector(".interaction-text").innerHTML += BodyTextUI()
+document.querySelector(".interaction-boat").innerHTML += BoatUI()
+
+//URBAN CITIES HEADER
+document.querySelector(".urban-head").innerHTML += SubCatUI("HOW ARE URBAN <br> CITIES AFFECTED?", "center")
+
+
+
+document.querySelector(".items").innerHTML += ItemsUI("../common-items/imgs/bottle.png", "Beverage Bottles", 0);
+document.querySelector(".items").innerHTML += ItemsUI("./common-items/imgs/can.png",  "Beverage Cans");
+document.querySelector(".items").innerHTML += ItemsUI("./common-items/imgs/caps.png", "Caps and Lips", 0);
+document.querySelector(".items").innerHTML += ItemsUI("./common-items/imgs/cigarette.png",  "Cigarettes", 10);
+document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/mask.png", "Face Masks", -20);
+document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/plasticbag.png", "Plastic Bags", -20);
+document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/straw.png", "Straws");
+document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/wrapper.png", "Food Wrapper", 150);
+
+
+
+
+
+
+
+
+
+
+
 
 
 //additional js
