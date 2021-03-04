@@ -1,4 +1,4 @@
-function SubCatUI(text = "SUBHEADING", align = "left"){
+function SubCatUI(text = "SUBHEADING", align = "left", color ="#317EB7", size="70px"){
     return `
     <div
     style="
@@ -6,8 +6,8 @@ function SubCatUI(text = "SUBHEADING", align = "left"){
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:900;
-    font-size: 70px;
-    color:#317EB7;
+    font-size: ${size};
+    color:${color};
     "
     >
         <div>${text}<div>
