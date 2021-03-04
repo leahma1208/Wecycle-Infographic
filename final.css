@@ -88,6 +88,19 @@ body {
     display: none;
 }
 
+#recycleBin-answer3 {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 0 40px;
+    display: none;
+}
+
+#recycleBin-answer4 {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 0 40px;
+    display: none;
+}
 .middle {
     display: flex;
     justify-content: center;
