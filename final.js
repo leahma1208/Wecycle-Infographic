@@ -50,8 +50,6 @@ document.querySelector("#commonheader").innerHTML += SubCatUI("COMMON ITEMS FOUN
 document.querySelector(".interaction-text").innerHTML += BodyTextUI()
 document.querySelector(".interaction-boat").innerHTML += BoatUI()
 
-//URBAN CITIES HEADER
-document.querySelector(".urban-head").innerHTML += SubCatUI("HOW ARE URBAN <br> CITIES AFFECTED?", "center")
 
 
 
@@ -65,6 +63,22 @@ document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/stra
 document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/wrapper.png", "Food Wrapper", 150);
 
 
+
+//URBAN CITIES HEADER
+document.querySelector(".urban-head").innerHTML += SubCatUI("HOW ARE URBAN <br> CITIES AFFECTED?", "center")
+
+//car scrolling
+document.querySelector(".car-scroll").innerHTML += CarUI()
+
+document.querySelector(".lets-go").innerHTML += SubCatUI("LET'S<br>GO<br>ON A<br>DRIVE", "left", "#424B43", "90px")
+
+document.querySelector(".sign-1").innerHTML += StreetSignUI()
+document.querySelector(".sign-2").innerHTML += StreetSignUI("Microplastics never decompose and end up in places like our gardens. Where we grow vegetables and crops")
+document.querySelector(".sign-3").innerHTML += StreetSignUI("Just like the car you’re driving now, manufacturers and transportation vehicals are emitting gasses into our atmosphere")
+
+document.querySelector(".factory-urban").innerHTML += FactoriesUI()
+
+document.querySelector(".park-1").innerHTML += ParkUI()
 
 
 
@@ -112,4 +126,15 @@ function RecycleBinFalse2(){
     document.querySelector("#recycleBin-answer11").style.display = "none"
     document.querySelector("#recycleBin-answer22").style.opacity = "1"
     document.querySelector("#recycleBin-answer22").style.display = "block"
+}
+
+var fixed = true
+function CarScrollin(){
+    document.querySelector(".car-scroll").style.opacity = "1"
+    
+}
+
+function CarScrollout(){
+
+    document.querySelector(".car-scroll").style.opacity = "0"
 }
