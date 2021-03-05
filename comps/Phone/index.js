@@ -10,9 +10,19 @@ function PhoneUI()
     `
 
 }
-
+var click = true
 PhoneUI.Show =(el) => {
+    if(click){
     el.src = "../public/Images/phone-2.png"
+
+    click = false
+
+    }
+
+    else{
+        el.src = "../public/Images/phone-1.png"
+        click = true
+    }
 }
 
 
