@@ -170,8 +170,28 @@
             <div class="landfill">
 
                 <div class="landfill-header"></div>
+                <div class="quiztime"></div>
+
+                <!--country quiz start -->
+                <div class="country_quiz_header"></div>
+                <div class="holder">
+                    <div class="middle">
+                        <div onclick="FlagAnswerFalse()" id="flag-1" class="flag"></div>
+                        <div onclick="FlagAnswerFalse()" id="flag-2" class="flag"></div>
+                        <div onclick="FlagAnswerTrue()" id="flag-3" class="flag"></div>
+                    </div>
+                </div>
+
+                <div class="holder">
+                    <div class="middle">
+                        <div id="flag-answer1"></div>
+                        <div id="flag-answer2"></div>
+                    </div>
+                </div>
 
 
+
+                <!-- animal part -->
                 <div class="animals">
                     <div class="animals-question"></div>
                     <div class="animals-comp"></div>
@@ -197,7 +217,9 @@
        
        
        
-       
+        <script src="comps/Flags/index.js"></script>
+        <script src="comps/FlagTrue/index.js"></script>
+        <script src="comps/FlagFalse/index.js"></script>
         <script src="comps/DIY/index.js"></script>
         <script src="comps/Animals/index.js"></script>
         <script src="comps/park/index.js"></script>

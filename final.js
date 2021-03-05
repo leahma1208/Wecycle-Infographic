@@ -83,6 +83,16 @@ document.querySelector(".park-1").innerHTML += ParkUI()
 
 //LANDFILL
 document.querySelector(".landfill-header").innerHTML += SubCatUI("HOW ARE OUR <br> LANDFILLS AFFECTED?", "center", "#075E3E")
+document.querySelector(".quiztime").innerHTML += BodyTextUI("QUIZ TIME!", "center", "87px", "#00955F", "700")
+
+//country quiz part
+document.querySelector(".country_quiz_header").innerHTML += BodyTextUI("Roughly how big do you<br> think Canada’s landfill is?", "center", "73px", "#0B3F2C", "600")
+document.querySelector("#flag-1").innerHTML += FlagUI("public/images/new-zealand.png", "Newzealand");
+document.querySelector("#flag-2").innerHTML += FlagUI("public/images/italy_.png", "Italy");
+document.querySelector("#flag-3").innerHTML += FlagUI("public/images/monaco_.png", "Monaco");
+
+document.querySelector("#flag-answer1").innerHTML += CountryTrue()
+document.querySelector("#flag-answer2").innerHTML += CountryFalse()
 
 
 
@@ -155,5 +165,18 @@ function CarScrollin(){
 function CarScrollout(){
 
     document.querySelector(".car-scroll").style.opacity = "0"
+}
+
+function FlagAnswerTrue(){
+    document.querySelector("#flag-answer1").style.display = "block"
+    document.querySelector("#flag-answer1").style.opacity = "1"
+    document.querySelector("#flag-answer2").style.display = "none"
+}
+
+function FlagAnswerFalse(){
+    document.querySelector("#flag-answer1").style.display = "none"
+    document.querySelector("#flag-answer2").style.display = "block"
+    document.querySelector("#flag-answer2").style.transition = "opacity 1s"
+
 }
 
