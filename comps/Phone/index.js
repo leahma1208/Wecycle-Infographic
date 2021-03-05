@@ -3,7 +3,7 @@ function PhoneUI()
     return `
     <div>
         <img
-        src="../public/Images/phone-1.svg" width="500px" height="500px"
+        src="../public/Images/phone-1.png" width="300px" height="550px"
         onclick="PhoneUI.Show(this)"
         >
     </div>
@@ -12,7 +12,7 @@ function PhoneUI()
 }
 
 PhoneUI.Show =(el) => {
-    el.src = "../public/Images/phone-2.svg"
+    el.src = "../public/Images/phone-2.png"
 }
 
 
