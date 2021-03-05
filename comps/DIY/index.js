@@ -1,12 +1,15 @@
+
 function SelfUI(img1="./Imgs/bottles.png",img2="./Imgs/bottle_DIY.png",txt="Use bottle as a <b>pot</b> for plants!", clickId="diy",
 left1="0",left2="400", width="400", height="300", top="0", bottom="200"){
+
     return `
     
     <section style='
     display: flex;
+
     margin-bottom: ${bottom}px;
     justify-content: space-between;
-    
+
     '>
     
     <div
@@ -14,13 +17,11 @@ left1="0",left2="400", width="400", height="300", top="0", bottom="200"){
     
     display: flex;
     flex-direction: column;
-  
-   
-    
-    
+
     
     '
-   
+    onclick="SelfUI.HandleClick()"
+
     >
     <p style='
     font-size: 36px;
@@ -33,6 +34,7 @@ left1="0",left2="400", width="400", height="300", top="0", bottom="200"){
     
     
     '>Click Me!</p>
+
     <img 
     onclick="SelfUI.HandleClick('${clickId}')"
     style='
@@ -50,19 +52,22 @@ left1="0",left2="400", width="400", height="300", top="0", bottom="200"){
     style='display: flex;
     flex-direction: column;
     margin-left: ${left2}px;
+
     display: flex;
     margin-top: 90px;
     font-family: sans-serif;
     transition: opacity 1s;
     opacity: 0;
+
    
     align-items:center;
    
-    
+
     '
    
     >
     <img style='
+
     width: ${width}px;
     height: ${height}px;
     
@@ -78,10 +83,22 @@ left1="0",left2="400", width="400", height="300", top="0", bottom="200"){
     flex-direction: column;
     margin-top: ${top}px;
 
+
+    width: 450px;
+    height: 350px;
+    
+    
+    'src='./Imgs/bottle_DIY.png'/>
+    <p style='
+    font-size: 40px;
+    justify-content: center;
+    margin-top: 0px;
+
     
     
     '
     >
+
      ${txt} 
     </p>
 
@@ -90,6 +107,7 @@ left1="0",left2="400", width="400", height="300", top="0", bottom="200"){
     
    
     
+
     
     </section>
     
@@ -97,7 +115,8 @@ left1="0",left2="400", width="400", height="300", top="0", bottom="200"){
     `
 }
 
+
 SelfUI.HandleClick = (clickId) => {
     document.querySelector(`#${clickId}`).style.opacity = 1
-}
+
 // export const DIY = SelfUI();

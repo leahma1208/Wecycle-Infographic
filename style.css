@@ -41,7 +41,10 @@ body {
   justify-content: center;
   max-width: 75vw;
   margin: auto;
+<<<<<<< HEAD
   flex-direction: column;
+=======
+>>>>>>> 049f54deee8e10c72b643b5b502d5af9e8ddb10a
 }
 .diy-title {
   display: flex;
