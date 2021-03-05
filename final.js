@@ -81,12 +81,30 @@ document.querySelector(".factory-urban").innerHTML += FactoriesUI()
 document.querySelector(".park-1").innerHTML += ParkUI()
 
 
+//LANDFILL
+document.querySelector(".landfill-header").innerHTML += SubCatUI("HOW ARE OUR <br> LANDFILLS AFFECTED?", "center", "#075E3E")
 
 
 
 
+//ANIMALS
+document.querySelector(".animals-question").innerHTML += BodyTextUI("Release of methane<br>contributes to global<br> warming... what <br>does this mean?", "left", "50px", "#0B3F2C", "500", "100px");
+document.querySelector(".animals-question").innerHTML += ParkUI("../Imgs/globalwarming.png", "300px")
+
+document.querySelector(".animals-comp").innerHTML += AnimalsUI();
+document.querySelector(".animals-comp").innerHTML += AnimalsUI("./Imgs/seals.png", "No More Seals");
+document.querySelector(".animals-comp").innerHTML += AnimalsUI("./Imgs/penguin.png", "No More Penguins");
 
 
+// DIY
+document.querySelector(".diy-header").innerHTML += SubCatUI("REDUCE & REUSE TO PREVENT OUR <br>LANDFILL FROM GROWING!", "center",
+ "#8420D2")
+ document.querySelector(".diy-header").innerHTML += BodyTextUI("Cliick to see what everyday trash <br>is turned into", "center", "50px", "#502B6C");
+ document.querySelector(".diy-comps").innerHTML += SelfUI();
+ document.querySelector(".diy-comps").innerHTML += SelfUI("./Imgs/mug.png", "./Imgs/mug_DIY.png", "Use an <b>old mug</b> as a container for <br>stationery", "mug",
+"90", "400","300","300", "15");
+document.querySelector(".diy-comps").innerHTML += SelfUI("./Imgs/magazine.png", "./Imgs/paper_DIY.png", "Using magazines and extra <br>paper for <b>arts and crafts</b>", "mag",
+"85", "400","300","300","15");
 
 
 

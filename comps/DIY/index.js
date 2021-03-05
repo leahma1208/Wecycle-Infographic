@@ -1,11 +1,11 @@
-function SelfUI(img1="./Imgs/bottles.png",img2="./Imgs/bottle_DIY.png",txt="Use bottle as a pot for plants!", clickId="diy",
-left1="0",left2="400", width="400", height="300", top="0", right="0"){
+function SelfUI(img1="./Imgs/bottles.png",img2="./Imgs/bottle_DIY.png",txt="Use bottle as a <b>pot</b> for plants!", clickId="diy",
+left1="0",left2="400", width="400", height="300", top="0", bottom="200"){
     return `
     
     <section style='
     display: flex;
-    margin-bottom: 100px;
-    
+    margin-bottom: ${bottom}px;
+    justify-content: space-between;
     
     '>
     
@@ -14,7 +14,8 @@ left1="0",left2="400", width="400", height="300", top="0", right="0"){
     
     display: flex;
     flex-direction: column;
-    margin-left: ${left1}px;
+  
+   
     
     
     
@@ -54,6 +55,9 @@ left1="0",left2="400", width="400", height="300", top="0", right="0"){
     font-family: sans-serif;
     transition: opacity 1s;
     opacity: 0;
+   
+    align-items:center;
+   
     
     '
    
@@ -67,12 +71,13 @@ left1="0",left2="400", width="400", height="300", top="0", right="0"){
     <p style='
     font-size: 40px;
     justify-content: center;
-    
+    display:flex;
    text-align:center;
     display: flex;
+    
     flex-direction: column;
     margin-top: ${top}px;
-    margin-right: ${right}px;
+
     
     
     '
