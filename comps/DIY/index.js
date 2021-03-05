@@ -54,6 +54,8 @@ left1="0",left2="400", width="400", height="300", top="0", right="0"){
     font-family: sans-serif;
     transition: opacity 1s;
     opacity: 0;
+    justify-content: center;
+    align-items: center;
     
     '
    
