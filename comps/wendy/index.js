@@ -1,7 +1,7 @@
 function WendyWhale() {
     return `
     <div>
-        <img src="../public/images/whale.svg" width="500px height="500px">
+        <img src="../public/images/whale.png" width="500px height="500px">
     <div>
     `
 }
