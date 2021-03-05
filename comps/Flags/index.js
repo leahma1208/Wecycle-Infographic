@@ -1,4 +1,4 @@
-function FlagUI(image = "public/imgs/new-zealand.svg" , country = "New Zealand")
+function FlagUI(image = "public/imgs/new-zealand.png" , country = "New Zealand")
 {
     return `
     <div>
@@ -8,12 +8,19 @@ function FlagUI(image = "public/imgs/new-zealand.svg" , country = "New Zealand")
         flex-direction:column;
         align-items:center;
         ">
-            <img
-            src="${image}" width="400px" height="500px>
+        <img
+        style='
+        width:347px;
+        height:347px;
+        margin-left:35px;
+            
+            '
+            src="${image}">
             <p
             style="
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
+            font-size:47px;
             
             "
             >${country}<p>

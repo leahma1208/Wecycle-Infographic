@@ -308,6 +308,31 @@ body {
   margin-bottom: 100px;
 }
 
+.quiztime{
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 225px;
+  background-color: #E2F8E7;
+}
+
+#flag-answer1{
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  padding: 0 40px;
+  margin-bottom: 10rem;
+  display: none;
+}
+#flag-answer2{
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  padding: 0 40px;
+  margin-bottom: 10rem;
+  display: none;
+}
+
 /* animals */
 
 .animals {
