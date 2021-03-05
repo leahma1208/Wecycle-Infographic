@@ -1,8 +1,9 @@
 function IntroUI(text = "LEARN THE IMPORTANCE OF"){
     return `
-    <div
+    <p
     style="
     text-align:center;
+    justify-content:center;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:900;
@@ -10,8 +11,8 @@ function IntroUI(text = "LEARN THE IMPORTANCE OF"){
     color:#317EB7;
     "
     >
-        <div>${text}<div>
-    <div>
+    ${text}
+    <p>
     `
 }
 

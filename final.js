@@ -47,11 +47,8 @@ document.querySelector("#closerlook").innerHTML += MagnifyingGlass();
 //common items
 document.querySelector("#commonheader").innerHTML += SubCatUI("COMMON ITEMS FOUND<br>IN MARINE LIFE")
 
-document.querySelector(".interaction-text").innerHTML += BodyTextUI()
+document.querySelector(".interaction-text").innerHTML += BodyTextUI("Hover over the boat<br>to see the effects of transportation<br>and help clean the ocean!", "center", "20px" )
 document.querySelector(".interaction-boat").innerHTML += BoatUI()
-
-
-
 
 document.querySelector(".items").innerHTML += ItemsUI("../common-items/imgs/bottle.png", "Beverage Bottles", 0);
 document.querySelector(".items").innerHTML += ItemsUI("./common-items/imgs/can.png",  "Beverage Cans");
@@ -99,11 +96,11 @@ document.querySelector(".animals-comp").innerHTML += AnimalsUI("./Imgs/penguin.p
 // DIY
 document.querySelector(".diy-header").innerHTML += SubCatUI("REDUCE & REUSE TO PREVENT OUR <br>LANDFILL FROM GROWING!", "center",
  "#8420D2")
- document.querySelector(".diy-header").innerHTML += BodyTextUI("Cliick to see what everyday trash <br>is turned into", "center", "50px", "#502B6C");
+ document.querySelector(".diy-header").innerHTML += BodyTextUI("Click to see what everyday trash <br>is turned into", "center", "50px", "#502B6C");
  document.querySelector(".diy-comps").innerHTML += SelfUI();
  document.querySelector(".diy-comps").innerHTML += SelfUI("./Imgs/mug.png", "./Imgs/mug_DIY.png", "Use an old mug as a container for <br>stationery", "mug",
 "90", "400","300","300", "15");
-document.querySelector(".diy-comps").innerHTML += SelfUI("./Imgs/magazine.png", "./Imgs/paper_DIY.png", "Using magazines and extra paper for arts and crafts", "mag",
+document.querySelector(".diy-comps").innerHTML += SelfUI("./Imgs/magazine.png", "./Imgs/paper_DIY.png", "Using magazines and extra paper<br> for arts and crafts", "mag",
 "85", "400","300","300","15");
 
 
