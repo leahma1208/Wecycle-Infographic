@@ -138,3 +138,4 @@ function CarScrollout(){
 
     document.querySelector(".car-scroll").style.opacity = "0"
 }
+

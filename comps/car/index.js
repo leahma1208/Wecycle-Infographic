@@ -3,7 +3,6 @@ function CarUI() {
         <div
         id="carhover"
         style="
-        display:flex;
         
         "
         >
