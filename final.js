@@ -113,6 +113,8 @@ document.querySelector(".diy-header").innerHTML += SubCatUI("REDUCE & REUSE TO P
 document.querySelector(".diy-comps").innerHTML += SelfUI("./Imgs/magazine.png", "./Imgs/paper_DIY.png", "Using magazines and extra paper<br> for arts and crafts", "mag",
 "85", "400","300","300","15");
 
+// EARTH
+document.querySelector(".earth-part").innerHTML += EarthUI()
 
 
 //additional js

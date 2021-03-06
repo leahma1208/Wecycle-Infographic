@@ -428,6 +428,14 @@ h1{
   max-width: 80vw;
 }
 
+.earth {
+  display: flex;
+  background-color: rgb(201,206,246);
+  background: linear-gradient(180deg, rgba(201,206,246,1) 2%, rgba(201,206,246,1) 39%, rgba(182,219,195,1) 100%);
+  height: 100%;
+  justify-content: center;
+  
+}
 
 
 
