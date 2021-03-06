@@ -4,7 +4,7 @@ function RecycleFalse(){
     <div style='
         background:#CDEAFF;
         height: 330px;
-        width: 1182px;
+        width: 100%;
         border-radius: 91px;
         display:flex;
         padding: 20px;

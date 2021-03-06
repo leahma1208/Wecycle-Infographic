@@ -3,6 +3,7 @@ function AnimalsUI(imgs="./Imgs/polarbear.png", text="No More Polar Bears")
 return`
 <section style='
 display: flex;
+width:100%;
 
 margin-top: 100px;
 
@@ -15,7 +16,10 @@ onmouseover="AnimalsUI.HandleClick(this)">
 
 
 <div style='
-margin-left: 20px;
+display:flex;
+flex:1;
+justify-content:center;
+align-items:center;
 '
 >
 <img style='
@@ -31,9 +35,12 @@ src="${imgs}"/>
 <div id="text "style='
 font-size: 50px;
 font-family: sans-serif;
+justify-content:flex-start;
 font-weight: bold;
 color: #2E3141;
-Margin: 70px 0px 0px 50px;
+display:flex;
+flex:1;
+align-items:center;
 
 '
 >
@@ -48,8 +55,6 @@ AnimalsUI.HandleClick = (el) => {
    
         el.style.opacity = 1
    
-    
-
 }
 
 

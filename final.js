@@ -41,13 +41,13 @@ document.querySelector("#recycleBin-answer11").innerHTML += RecycleTrue("<strong
 document.querySelector("#recycleBin-answer22").innerHTML += RecycleFalse("That is <strong>correct!</strong><br>all items shown above <strong>NEED</strong> to be <br> recycled")
 
 // microplastic part
-document.querySelector("#microplastichead").innerHTML += SubCatUI("FIRST OFF... WHAT IS <br> MICROPLASTIC?");
+document.querySelector("#microplastichead").innerHTML += SubCatUI("FIRST OFF... WHAT IS <br> MICROPLASTIC?", "left", "#317EB7", "60px");
 document.querySelector("#closerlook").innerHTML += MagnifyingGlass();
 
 //common items
 document.querySelector("#commonheader").innerHTML += SubCatUI("COMMON ITEMS FOUND<br>IN MARINE LIFE")
 
-document.querySelector(".interaction-text").innerHTML += BodyTextUI("Hover over the boat<br>to see the effects of transportation<br>and help clean the ocean!", "center", "20px" )
+document.querySelector(".interaction-text").innerHTML += BodyTextUI("Hover over the boat<br>to see the effects of transportation<br>and click to clean the ocean!", "center", "20px" )
 document.querySelector(".interaction-boat").innerHTML += BoatUI()
 
 document.querySelector(".items").innerHTML += ItemsUI("../common-items/imgs/bottle.png", "Beverage Bottles", 0);
@@ -84,7 +84,7 @@ document.querySelector(".quiztime").innerHTML += BodyTextUI("QUIZ TIME!", "cente
 
 //country quiz part
 document.querySelector(".country_quiz_header").innerHTML += BodyTextUI("Roughly how big do you<br> think Canada’s landfill is?", "center", "73px", "#0B3F2C", "600")
-document.querySelector("#flag-1").innerHTML += FlagUI("public/images/new-zealand.png", "Newzealand");
+document.querySelector("#flag-1").innerHTML += FlagUI("public/images/new-zealand.png", "New Zealand");
 document.querySelector("#flag-2").innerHTML += FlagUI("public/images/italy_.png", "Italy");
 document.querySelector("#flag-3").innerHTML += FlagUI("public/images/monaco_.png", "Monaco");
 
