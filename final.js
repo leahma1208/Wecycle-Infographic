@@ -37,8 +37,8 @@ document.querySelector("#bin-11").innerHTML += RecycleBinUI('./public/images/gra
 document.querySelector("#bin-22").innerHTML += RecycleBinUI('./public/images/blue_bin.png','Recycle');
 document.querySelector("#bin-33").innerHTML += RecycleBinUI('./public/images/green_bin.png','Compost');
 
-document.querySelector("#recycleBin-answer11").innerHTML += RecycleTrue("<strong>Incorrect!</strong><br>just like Wendy, sperm whales are the most<br>common species to die from ingesting<br>plastic")
-document.querySelector("#recycleBin-answer22").innerHTML += RecycleFalse("That is <strong>correct!</strong><br>all items shown above <strong>NEED</strong> to be <br> recycled")
+document.querySelector("#recycleBin-answer11").innerHTML += WhaleTrue()
+document.querySelector("#recycleBin-answer22").innerHTML += WhaleFalse()
 
 // microplastic part
 document.querySelector("#microplastichead").innerHTML += SubCatUI("FIRST OFF... WHAT IS <br> MICROPLASTIC?", "left", "#317EB7", "60px");
@@ -114,6 +114,10 @@ document.querySelector(".diy-comps").innerHTML += SelfUI("./Imgs/magazine.png", 
 "85", "400","300","300","15");
 
 // EARTH
+
+document.querySelector(".first-last").innerHTML += SubCatUI("LET'S DO OUR PART", "center", "#11A871", "70px")
+document.querySelector(".second-last").innerHTML += SubCatUI("AND PROTECT OUR HOME", "center", "#11A871", "40px")
+
 document.querySelector(".earth-part").innerHTML += EarthUI()
 
 
@@ -147,12 +151,14 @@ function RecycleBinTrue2(){
     document.querySelector("#recycleBin-answer11").style.opacity = "1"
     document.querySelector("#recycleBin-answer22").style.display = "none"
     document.querySelector(".bag1").style.opacity = "0"
+    document.querySelector("#wendy-debris").style.display = "none"
 }
 
 function RecycleBinFalse2(){
     document.querySelector("#recycleBin-answer11").style.display = "none"
     document.querySelector("#recycleBin-answer22").style.opacity = "1"
     document.querySelector("#recycleBin-answer22").style.display = "block"
+    document.querySelector("#wendy-debris").style.display = "block"
 }
 
 var fixed = true
