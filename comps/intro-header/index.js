@@ -2,8 +2,6 @@ function IntroUI(text = "LEARN THE IMPORTANCE OF"){
     return `
     <p
     style="
-    text-align:center;
-    justify-content:center;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:900;

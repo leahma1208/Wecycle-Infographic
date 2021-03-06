@@ -17,6 +17,11 @@ body {
   background: linear-gradient(180deg, rgba(255, 255, 255, 1) 38%, #b9e2ff 100%);
 }
 
+h1{
+  display: none;
+}
+
+
 .holder {
   justify-content: center;
   align-items: center;
@@ -25,16 +30,53 @@ body {
 }
 
 /* INTRODUCTION HEADER */
+
+.intro-part {
+  padding: 0px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
 .Intro-head {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-end;
+
+}
+
+.head-part {
+  justify-content: center;
+  align-items: center;
+  display: flex;
   flex-wrap: wrap;
-  margin-top: 10%;
+  width: 100%;
+}
+
+/* headers */
+h1{
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:900;
+  color:#085085;
+  font-size: 190px;
+}
+
+.first-head{
+  display: flex;
+  text-align: center;
+
+
 }
 
 /* PHONE QUIZ */
 .phone-question1 {
   margin-top: 10%;
+  text-align: center;
 }
 .questionbody {
   text-align: center;
@@ -46,12 +88,12 @@ body {
 
 /* HOW ARE OCEANS AFFECTED? */
 .subhead-holder {
-  width: 80%;
+  width: 100%;
   display: flex;
-  justify-content: flex-start;
-  padding-left: 20%;
+  justify-content: center;
   margin-top: 20%;
 }
+
 
 .fish-container {
   display: flex;
@@ -136,6 +178,18 @@ body {
 
 .closer {
   margin-top: 30%;
+}
+
+.magnify-holder{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.magnify-part {
+  display: flex;
+  justify-content: center;
+  color: blue;
 }
 
 /* COMMON ITEMS */
@@ -339,7 +393,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: auto;
 }
 .animals-question {
   display: flex;
@@ -351,7 +404,7 @@ body {
 .animals-comp {
   display: flex;
   flex-direction: column;
-  max-width: 50vw;
+  width: 100%;
   margin-bottom: 500px;
 }
 
@@ -375,6 +428,11 @@ body {
   max-width: 80vw;
 }
 
+
+
+
+/* iphone */
+
 @media screen and (max-width: 600px) {
   .urban {
     display: flex;
@@ -387,5 +445,41 @@ body {
   .car-scroll {
     display: none;
   }
+  /* h1{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:900;
+    color:#085085;
+    font-size: 60px;
+  } */
 
+}
+
+@media only screen and (max-width: 1200px) {
+  .car-scroll {
+    display: none;
+  }
+  .urban {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 2000px;
+    background-color: #c5e5c8;
+  }
+  h1{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:900;
+    color:#085085;
+    font-size: 90px;
+  }
+
+  .introrecycle{
+    display: none;
+  }
+
+  h1{
+    display: block;
+    font-size: 70px;
+  }
 }
