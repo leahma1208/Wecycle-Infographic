@@ -6,4 +6,5 @@ document.querySelector(".items2").innerHTML += ItemsUI("./imgs/mask.png", "Face 
 document.querySelector(".items2").innerHTML += ItemsUI("./imgs/plasticbag.png", "Plastic Bags", -20);
 document.querySelector(".items2").innerHTML += ItemsUI("./imgs/straw.png", "Straws");
 document.querySelector(".items2").innerHTML += ItemsUI("./imgs/wrapper.png", "Food Wrapper", 150);
+document.querySelector(".plants").innerHTML += PlantsUI();
 document.querySelector(".garden").innerHTML += GardenUI();
