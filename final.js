@@ -47,7 +47,7 @@ document.querySelector("#closerlook").innerHTML += MagnifyingGlass();
 //common items
 document.querySelector("#commonheader").innerHTML += SubCatUI("COMMON ITEMS FOUND<br>IN MARINE LIFE")
 
-document.querySelector(".interaction-text").innerHTML += BodyTextUI("Hover over the boat<br>to see the effects of transportation<br>and click to clean the ocean!", "center", "20px" )
+document.querySelector(".interaction-text").innerHTML += BodyTextUI("Hover over the boat<br>to see the effects of transportation<br>and click to clean the ocean!", "center", "30px" )
 document.querySelector(".interaction-boat").innerHTML += BoatUI()
 
 document.querySelector(".items").innerHTML += ItemsUI("../common-items/imgs/bottle.png", "Beverage Bottles", 0);
@@ -62,7 +62,7 @@ document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/wrap
 
 
 //URBAN CITIES HEADER
-document.querySelector(".urban-head").innerHTML += SubCatUI("HOW ARE URBAN <br> CITIES AFFECTED?", "center")
+document.querySelector(".urban-head").innerHTML += SubCatUI("HOW ARE URBAN <br> CITIES AFFECTED?", "center", "#0D203D", "100px")
 
 //car scrolling
 document.querySelector(".car-scroll").innerHTML += CarUI()
@@ -95,7 +95,7 @@ document.querySelector("#flag-answer2").innerHTML += CountryFalse()
 
 
 //ANIMALS
-document.querySelector(".animals-question").innerHTML += BodyTextUI("Release of methane<br>contributes to global<br> warming... what <br>does this mean?", "left", "50px", "#0B3F2C", "500", "100px");
+document.querySelector(".animals-question").innerHTML += BodyTextUI("Release of methane<br>contributes to global<br> warming... what <br>does this mean?", "left", "50px", "dark grey", "500", "100px");
 document.querySelector(".animals-question").innerHTML += ParkUI("../Imgs/globalwarming.png", "300px")
 
 document.querySelector(".animals-comp").innerHTML += AnimalsUI();
@@ -109,9 +109,9 @@ document.querySelector(".diy-header").innerHTML += SubCatUI("REDUCE & REUSE TO P
  document.querySelector(".diy-header").innerHTML += BodyTextUI("Click to see what everyday trash <br>is turned into", "center", "50px", "#502B6C");
  document.querySelector(".diy-comps").innerHTML += SelfUI();
  document.querySelector(".diy-comps").innerHTML += SelfUI("./Imgs/mug.png", "./Imgs/mug_DIY.png", "Use an old mug as a container for <br>stationery", "mug",
-"90", "400","300","300", "15");
+"100", "400","300","300", "15");
 document.querySelector(".diy-comps").innerHTML += SelfUI("./Imgs/magazine.png", "./Imgs/paper_DIY.png", "Using magazines and extra paper<br> for arts and crafts", "mag",
-"85", "400","300","300","15");
+"100", "400","300","300","15");
 
 // EARTH
 
