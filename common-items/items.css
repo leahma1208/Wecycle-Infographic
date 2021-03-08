@@ -44,6 +44,14 @@ html, body
     justify-content: center;
 }
 
+.plants
+{
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .garden
 {
     display: flex;
