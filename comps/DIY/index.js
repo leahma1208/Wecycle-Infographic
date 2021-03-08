@@ -1,4 +1,4 @@
-function SelfUI(img1="./Imgs/bottles.png",img2="./Imgs/bottle_DIY.png",txt="Use bottle as a pot for plants!", clickId="diy",
+function SelfUI(img1="./Imgs/bottles.png",img2="./Imgs/bottle_DIY.png",txt="Use bottles as a pot for plants!", clickId="diy",
 left1="150",left2="400", width="400", height="300", top="0", right="0"){
     return `
     

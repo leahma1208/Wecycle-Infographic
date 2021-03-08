@@ -17,12 +17,14 @@ function StreetSignUI(text = "Our parks and beaches are slowly becoming more and
         position:absolute;
         font-family:montserrat, sans-serif;
         text-align:center;
-        font-size: 18px;
+        font-size: 19px;
+        margin-top: 7px;
         "
         >
             <p
             style="
             line-height:30px;
+            
             width:90%;
             "
             >${text}<p>
