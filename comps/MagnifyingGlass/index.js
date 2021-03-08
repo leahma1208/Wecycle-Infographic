@@ -2,7 +2,7 @@ function MagnifyingGlass(img = "../public/Images/closerlook.png"){
     return `
         <div
         style="
-        margin:100px 0px;
+        margin:90px 0px;
         display:flex;
         position:relative;
         
@@ -12,7 +12,7 @@ function MagnifyingGlass(img = "../public/Images/closerlook.png"){
             style="
             transition: width 2s, height 2s;
             "
-            src="${img}" width="185px" height="300px"
+            src="${img}" width="280px" height="430px"
             onclick="MagnifyingGlass.Appear(this)"
             >
             <div
@@ -50,8 +50,8 @@ MagnifyingGlass.Appear = (el) => {
 if(clicked){
 
     el.src = "../public/Images/microplasticmag.png"
-    el.style.width = "250px"
-    el.style.height = "430px"
+    el.style.width = "350px"
+    el.style.height = "550px"
     document.querySelector("#text").style.opacity = "1"
 
     clicked = false
@@ -60,6 +60,8 @@ if(clicked){
 
 else {
     el.src = "../public/Images/closerlook.png"
+    el.style.width = "320px"
+    el.style.height = "500px"
     el.style.width = "185px"
     el.style.height = "300px"
     document.querySelector("#text").style.opacity = "0"
