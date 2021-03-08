@@ -33,7 +33,7 @@ function GardenUI()
         margin: 3rem;
         transform: rotate(-70deg)
         '
-        src="./imgs/shovel.png"/>
+        src="../common-items/imgs/shovel.png"/>
 
         <p id="text "style='
         font-size: 30px;
@@ -61,53 +61,59 @@ function GardenUI()
     transition: opacity 1s;
     opacity: 0;
     '
+    
     >
         <img style='
         height: 10rem;
         margin: 3rem;
         transform: rotate(-80deg);
         '
-        src="./imgs/microplastics.svg"/>
+        src="../common-items/imgs/microplastics.svg"/>
 
         <img style='
         height: 10rem;
         margin: 3rem;
         '
-        src="./imgs/microplastics.svg"/>
+        src="../common-items/imgs/microplastics.svg"/>
 
         <img style='
         height: 5rem;
         margin: 3rem;
         transform: rotate(-20deg);
         '
-        src="./imgs/waterbottle.png"/>
+        src="../common-items/imgs/waterbottle.png"/>
 
         <img style='
         height: 10rem;
         margin: 3rem;
         transform: rotate(-80deg);
         '
-        src="./imgs/microplastics.svg"/>
+        src="../common-items/imgs/microplastics.svg"/>
 
         <img style='
         height: 5rem;
         margin: 3rem;
         transform: rotate(20deg);
         '
-        src="./imgs/plasticcutlery.png"/>
+        src="../common-items/imgs/plasticcutlery.png"/>
 
         <img style='
         height: 10rem;
         margin: 3rem;
         '
-        src="./imgs/microplastics.svg"/>
+        src="../common-items/imgs/microplastics.svg"/>
 
     </div>
     </div>
     `
 }
+
+var yes = true
 GardenUI.HandleClick = (el) => {
-    el.querySelector(".front").style.opacity= 0;
-    el.querySelector(".back").style.opacity = 1;
+        el.querySelector(".front").style.opacity= 0;
+        el.querySelector(".back").style.opacity = 1;
+
+
 }
+
 //export const Garden = GardenUI();
