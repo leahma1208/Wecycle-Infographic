@@ -17,7 +17,7 @@ function RecycleBinUI(url='',sort='recyclebin'){
                 '>
                 <p style='
                     font-size:40px;
-                    font-family: montserrat;
+                    font-family: montserrat, sans-serif;
                     color:#00406E;
                     font-weight:600;
                     margin-top:50px;

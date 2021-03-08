@@ -15,8 +15,9 @@ function StreetSignUI(text = "Our parks and beaches are slowly becoming more and
         left:30px;
         color:white;
         position:absolute;
-        font-family:montserrat;
+        font-family:montserrat, sans-serif;
         text-align:center;
+        font-size: 18px;
         "
         >
             <p

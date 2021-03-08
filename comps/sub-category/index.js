@@ -1,4 +1,4 @@
-function SubCatUI(text = "SUBHEADING", align = "left", color ="#317EB7", size="70px"){
+function SubCatUI(text = "SUBHEADING", align = "left", color ="#317EB7", size="80px"){
     return `
     <p
     style="
@@ -8,6 +8,7 @@ function SubCatUI(text = "SUBHEADING", align = "left", color ="#317EB7", size="7
     font-weight:900;
     font-size: ${size};
     color:${color};
+    line-height: 1.5;
 
 
     "
