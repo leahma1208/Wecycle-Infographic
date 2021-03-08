@@ -344,6 +344,23 @@ h1{
   align-items: center;
 }
 
+/* garden */
+.plants
+{
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.garden
+{
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    background-color: #DE9252;
+}
+
 /* landfill */
 
 .landfill {
