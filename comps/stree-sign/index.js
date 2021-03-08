@@ -22,7 +22,7 @@ function StreetSignUI(text = "Our parks and beaches are slowly becoming more and
         >
             <p
             style="
-            line-height:40px;
+            line-height:30px;
             width:90%;
             "
             >${text}<p>
