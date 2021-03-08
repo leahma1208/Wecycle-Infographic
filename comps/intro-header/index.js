@@ -5,8 +5,9 @@ function IntroUI(text = "LEARN THE IMPORTANCE OF"){
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:900;
-    font-size: 40px;
+    font-size: 50px;
     color:#317EB7;
+   
     "
     >
     ${text}

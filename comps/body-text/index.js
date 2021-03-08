@@ -1,4 +1,4 @@
-function BodyTextUI(word = "body text here", center = "center", size = "30px", color = "#203748", weight = "100"){
+function BodyTextUI(word = "body text here", center = "center", size = "30px", color = "#203748", weight = "100", margin="0"){
     return `
     <p
     style="
@@ -7,6 +7,7 @@ function BodyTextUI(word = "body text here", center = "center", size = "30px", c
     font-size: ${size};
     color: ${color};
     font-weight:${weight};
+    margin-right:${margin};
     "
     >${word}<p>
     `

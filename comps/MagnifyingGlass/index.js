@@ -20,19 +20,20 @@ function MagnifyingGlass(img = "../public/Images/closerlook.png"){
             style="
             position:absolute;
             top:300px;
-            left:-110px;
+            left:-200px;
             display: block;
             opacity: 0;
             transition: opacity 3s;
-
+            
             "
             >
                 <p
                 style="
                 display:flex;
                 flex-wrap:wrap;
-                font-family:montserrat;
-                font-size:16px;
+                font-family:montserrat, sans-serif;
+                font-size:22px;
+                
                 "
                 >They are tiny broken <br> down pieces of plastic <br> that is found everywhere! <br> Even in our bodies<p>
             <div>
@@ -58,8 +59,8 @@ if(clicked){
 }
 
 else {
-    el.src = "../public/Images/closerlook.svg"
-    el.style.width = "230px"
+    el.src = "../public/Images/closerlook.png"
+    el.style.width = "185px"
     el.style.height = "300px"
     document.querySelector("#text").style.opacity = "0"
     clicked = true
