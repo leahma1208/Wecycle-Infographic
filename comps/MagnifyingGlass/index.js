@@ -62,6 +62,8 @@ else {
     el.src = "../public/Images/closerlook.png"
     el.style.width = "320px"
     el.style.height = "500px"
+    el.style.width = "185px"
+    el.style.height = "300px"
     document.querySelector("#text").style.opacity = "0"
     clicked = true
 

@@ -13,7 +13,7 @@ document.querySelector(".fish1").innerHTML += fishUI()
 document.querySelector("#fish-par-1").innerHTML += BodyTextUI("<strong>Help!</strong>I'm stuck in this <br> plastic bag")
 document.querySelector("#fish-par-2").innerHTML += BodyTextUI("<strong>Click on the right bin</strong> <br> to get me out!")
 document.querySelector("#fish-par-3").innerHTML += BodyTextUI("<strong>Thank-you!</strong> You did it!")
-document.querySelector("#hover").innerHTML += BodyTextUI("Hover Over the Bag!")
+document.querySelector("#hover").innerHTML += BodyTextUI("Hover in and out of the bag!")
 document.querySelector(".bag1").innerHTML += PlasticBagUI()
 
 
@@ -52,12 +52,12 @@ document.querySelector(".interaction-boat").innerHTML += BoatUI()
 
 document.querySelector(".items").innerHTML += ItemsUI("../common-items/imgs/bottle.png", "Beverage Bottles", 0);
 document.querySelector(".items").innerHTML += ItemsUI("./common-items/imgs/can.png",  "Beverage Cans");
-document.querySelector(".items").innerHTML += ItemsUI("./common-items/imgs/caps.png", "Caps and Lips", 0);
+document.querySelector(".items").innerHTML += ItemsUI("./common-items/imgs/caps.png", "Caps and Lids", 0);
 document.querySelector(".items").innerHTML += ItemsUI("./common-items/imgs/cigarette.png",  "Cigarettes", 10);
 document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/mask.png", "Face Masks", -20);
 document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/plasticbag.png", "Plastic Bags", -20);
 document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/straw.png", "Straws");
-document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/wrapper.png", "Food Wrapper", 150);
+document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/wrapper.png", "Food Wrappers", 150);
 
 
 
@@ -77,6 +77,9 @@ document.querySelector(".factory-urban").innerHTML += FactoriesUI()
 
 document.querySelector(".park-1").innerHTML += ParkUI()
 
+//GARDEN
+document.querySelector(".plants").innerHTML += PlantsUI();
+document.querySelector(".garden").innerHTML += GardenUI();
 
 
 
@@ -166,13 +169,18 @@ function RecycleBinFalse2(){
 
 var fixed = true
 function CarScrollin(){
-    document.querySelector(".car-scroll").style.opacity = "1"
+    // document.querySelector(".car-scroll").style.opacity = "1"
+    document.querySelector(".car-scroll").style.visibility = "visible"
     
 }
 
 function CarScrollout(){
 
-    document.querySelector(".car-scroll").style.opacity = "0"
+    // document.querySelector(".car-scroll").style.opacity = "0"
+    document.querySelector(".car-scroll").style.visibility = "hidden"
+
+
+    
 }
 
 function FlagAnswerTrue(){
