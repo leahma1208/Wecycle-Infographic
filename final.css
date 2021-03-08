@@ -95,6 +95,10 @@ h1{
 }
 
 
+.fish-help {
+  margin-top: 50px;
+}
+
 .fish-container {
   display: flex;
   width: 100%;
@@ -142,6 +146,7 @@ h1{
   padding: 0 40px;
   display: none;
 }
+
 
 .middle {
   display: flex;
@@ -288,8 +293,8 @@ h1{
   align-items: center;
   position: fixed;
   top: 0px;
-  opacity: 0;
-  transition: 0.5s;
+  /* opacity: 0; */
+  visibility: hidden;
   width: 100px;
 }
 

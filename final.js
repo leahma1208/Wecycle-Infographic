@@ -13,7 +13,7 @@ document.querySelector(".fish1").innerHTML += fishUI()
 document.querySelector("#fish-par-1").innerHTML += BodyTextUI("<strong>Help!</strong>I'm stuck in this <br> plastic bag")
 document.querySelector("#fish-par-2").innerHTML += BodyTextUI("<strong>Click on the right bin</strong> <br> to get me out!")
 document.querySelector("#fish-par-3").innerHTML += BodyTextUI("<strong>Thank-you!</strong> You did it!")
-document.querySelector("#hover").innerHTML += BodyTextUI("Hover Over the Bag!")
+document.querySelector("#hover").innerHTML += BodyTextUI("Hover in and out of the bag!")
 document.querySelector(".bag1").innerHTML += PlasticBagUI()
 
 
@@ -163,13 +163,18 @@ function RecycleBinFalse2(){
 
 var fixed = true
 function CarScrollin(){
-    document.querySelector(".car-scroll").style.opacity = "1"
+    // document.querySelector(".car-scroll").style.opacity = "1"
+    document.querySelector(".car-scroll").style.visibility = "visible"
     
 }
 
 function CarScrollout(){
 
-    document.querySelector(".car-scroll").style.opacity = "0"
+    // document.querySelector(".car-scroll").style.opacity = "0"
+    document.querySelector(".car-scroll").style.visibility = "hidden"
+
+
+    
 }
 
 function FlagAnswerTrue(){
