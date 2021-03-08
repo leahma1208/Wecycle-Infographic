@@ -52,12 +52,12 @@ document.querySelector(".interaction-boat").innerHTML += BoatUI()
 
 document.querySelector(".items").innerHTML += ItemsUI("../common-items/imgs/bottle.png", "Beverage Bottles", 0);
 document.querySelector(".items").innerHTML += ItemsUI("./common-items/imgs/can.png",  "Beverage Cans");
-document.querySelector(".items").innerHTML += ItemsUI("./common-items/imgs/caps.png", "Caps and Lips", 0);
+document.querySelector(".items").innerHTML += ItemsUI("./common-items/imgs/caps.png", "Caps and Lids", 0);
 document.querySelector(".items").innerHTML += ItemsUI("./common-items/imgs/cigarette.png",  "Cigarettes", 10);
 document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/mask.png", "Face Masks", -20);
 document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/plasticbag.png", "Plastic Bags", -20);
 document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/straw.png", "Straws");
-document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/wrapper.png", "Food Wrapper", 150);
+document.querySelector(".items2").innerHTML += ItemsUI("./common-items/imgs/wrapper.png", "Food Wrappers", 150);
 
 
 
@@ -77,6 +77,9 @@ document.querySelector(".factory-urban").innerHTML += FactoriesUI()
 
 document.querySelector(".park-1").innerHTML += ParkUI()
 
+//GARDEN
+document.querySelector(".plants").innerHTML += PlantsUI();
+document.querySelector(".garden").innerHTML += GardenUI();
 
 //LANDFILL
 document.querySelector(".landfill-header").innerHTML += SubCatUI("HOW ARE OUR <br> LANDFILLS AFFECTED?", "center", "#075E3E")
