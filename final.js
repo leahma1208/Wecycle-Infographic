@@ -6,7 +6,7 @@ document.querySelector(".introrecycle").innerHTML += RecycleUI();
 document.querySelector(".questionhead").innerHTML += IntroUI("BEFORE WE BEGIN...<br>CAN YOU GUESS...");
 document.querySelector(".questionbody").innerHTML += BodyTextUI("What percent of plastic is recycled <br> each year in Canada?");
 document.querySelector(".phone").innerHTML += PhoneUI();
-document.querySelector(".oceans-affect").innerHTML += SubCatUI("HOW ARE OCEANS <br> AFFECTED?");
+document.querySelector(".oceans-affect").innerHTML += SubCatUI("HOW ARE OCEANS <br> AFFECTED?","center","#00406F", "90px;");
 
 //Fish Trapped
 document.querySelector(".fish1").innerHTML += fishUI()
@@ -41,11 +41,11 @@ document.querySelector("#recycleBin-answer11").innerHTML += WhaleTrue()
 document.querySelector("#recycleBin-answer22").innerHTML += WhaleFalse()
 
 // microplastic part
-document.querySelector("#microplastichead").innerHTML += SubCatUI("FIRST OFF... WHAT IS <br> MICROPLASTIC?", "left", "#317EB7", "60px");
+document.querySelector("#microplastichead").innerHTML += SubCatUI("FIRST OFF... WHAT IS <br> MICROPLASTIC?", "left", "#00406F", "80px");
 document.querySelector("#closerlook").innerHTML += MagnifyingGlass();
 
 //common items
-document.querySelector("#commonheader").innerHTML += SubCatUI("COMMON ITEMS FOUND<br>IN MARINE LIFE")
+document.querySelector("#commonheader").innerHTML += SubCatUI("COMMON ITEMS FOUND<br>IN MARINE LIFE", "left","#033458")
 
 document.querySelector(".interaction-text").innerHTML += BodyTextUI("Hover over the boat<br>to see the effects of transportation<br>and click to clean the ocean!", "center", "30px" )
 document.querySelector(".interaction-boat").innerHTML += BoatUI()
@@ -78,6 +78,8 @@ document.querySelector(".factory-urban").innerHTML += FactoriesUI()
 document.querySelector(".park-1").innerHTML += ParkUI()
 
 
+
+
 //LANDFILL
 document.querySelector(".landfill-header").innerHTML += SubCatUI("HOW ARE OUR <br> LANDFILLS AFFECTED?", "center", "#075E3E")
 document.querySelector(".quiztime").innerHTML += BodyTextUI("QUIZ TIME!", "center", "87px", "#00955F", "700")
@@ -97,10 +99,11 @@ document.querySelector("#flag-answer2").innerHTML += CountryFalse()
 //ANIMALS
 document.querySelector(".animals-question").innerHTML += BodyTextUI("Release of methane<br>contributes to global<br> warming... what <br>does this mean?", "left", "50px", "dark grey", "500", "100px");
 document.querySelector(".animals-question").innerHTML += ParkUI("../Imgs/globalwarming.png", "300px")
+document.querySelector(".instruction").innerHTML += BodyTextUI("Hover over the animals to see what it means!", "center", "30px" )
 
 document.querySelector(".animals-comp").innerHTML += AnimalsUI();
-document.querySelector(".animals-comp").innerHTML += AnimalsUI("./Imgs/seals.png", "No More Seals");
-document.querySelector(".animals-comp").innerHTML += AnimalsUI("./Imgs/penguin.png", "No More Penguins");
+document.querySelector(".animals-comp").innerHTML += AnimalsUI("./Imgs/seals.png", "No More Seals","seal");
+document.querySelector(".animals-comp").innerHTML += AnimalsUI("./Imgs/penguin.png", "No More Penguins","penguin");
 
 
 // DIY

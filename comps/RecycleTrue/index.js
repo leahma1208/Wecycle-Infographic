@@ -9,7 +9,7 @@ function RecycleTrue(){
         padding: 20px;
         justify-content:center;
         align-items:center;
-        
+        margin-bottom: 300px;
     '>
         <div style='
             font-size:40px;
