@@ -4,6 +4,8 @@ function RecycleBinUI(url='',sort='recyclebin'){
         display:flex;
         text-align:center;
         justify-content:center;
+        height:100%;
+        width:100%;
         '>
             <div style='
                 display:flex;
