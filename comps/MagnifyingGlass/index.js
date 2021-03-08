@@ -59,8 +59,8 @@ if(clicked){
 }
 
 else {
-    el.src = "../public/Images/closerlook.svg"
-    el.style.width = "230px"
+    el.src = "../public/Images/closerlook.png"
+    el.style.width = "185px"
     el.style.height = "300px"
     document.querySelector("#text").style.opacity = "0"
     clicked = true
