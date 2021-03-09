@@ -10,7 +10,7 @@ document.querySelector(".oceans-affect").innerHTML += SubCatUI("HOW ARE OCEANS <
 
 //Fish Trapped
 document.querySelector(".fish1").innerHTML += fishUI()
-document.querySelector("#fish-par-1").innerHTML += BodyTextUI("<strong>Help!</strong>I'm stuck in this <br> plastic bag")
+document.querySelector("#fish-par-1").innerHTML += BodyTextUI("<strong>Help!</strong> I'm stuck in this <br> plastic bag")
 document.querySelector("#fish-par-2").innerHTML += BodyTextUI("<strong>Click on the right bin</strong> <br> to get me out!")
 document.querySelector("#fish-par-3").innerHTML += BodyTextUI("<strong>Thank-you!</strong> You did it!")
 document.querySelector("#hover").innerHTML += BodyTextUI("Hover in and out of the bag!")
@@ -71,7 +71,7 @@ document.querySelector(".lets-go").innerHTML += SubCatUI("LET'S<br>GO<br>ON A<br
 
 document.querySelector(".sign-1").innerHTML += StreetSignUI()
 document.querySelector(".sign-2").innerHTML += StreetSignUI("Microplastics never decompose and end up in places like our gardens. Where we grow vegetables and crops")
-document.querySelector(".sign-3").innerHTML += StreetSignUI("Just like the car you’re driving now, manufacturers and transportation vehicals are emitting gasses into our atmosphere")
+document.querySelector(".sign-3").innerHTML += StreetSignUI("Just like the car you’re driving now, manufacturers and transportation vehicles are emitting gasses into our atmosphere")
 
 document.querySelector(".factory-urban").innerHTML += FactoriesUI()
 
