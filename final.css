@@ -276,7 +276,7 @@ h1 {
 .cityscape > img {
   width: 100vw;
   position: relative;
-  top: 200px;
+  top: 300px;
 }
 .urban-left {
   display: flex;
